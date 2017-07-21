@@ -17,7 +17,7 @@ Setup (in Ubuntu)
 * Configure your domains so that their nameservers point to the public IP of the Docker host. This requires a change at your Registrar, simply changing NS records in the zonefile is insufficient.
 * Clone the Docker setup:
 ```
-$ git clone https://github.com/thinkst/canarytokens-docker
+$ git clone https://github.com/Ictcmn/canarytokens-docker
 $ cd canarytokens-docker
 ```
 * Install Docker compose (if not already present):
