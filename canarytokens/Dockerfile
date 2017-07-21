@@ -29,10 +29,10 @@ RUN pip install --no-cache-dir pypng==0.0.18
 RUN pip install --no-cache-dir htmlmin==0.1.10
 RUN pip install --no-cache-dir sendgrid==3.6.5
 
-RUN wget -O master.zip https://github.com/thinkst/canarytokens/archive/master.zip?step=1
+RUN wget -O master.zip https://github.com/Ictcmn/canarytokens/archive/master.zip?step=1
 RUN unzip master.zip
 RUN mv /canarytokens-master/* /srv
 RUN rm -rf /canarytokens-master
 WORKDIR /srv
 
-CMD echo "Please use the docker-compose setup described at https://github.com/thinkst/canarytokens-docker"
+CMD echo "Please use the docker-compose setup described at https://github.com/Ictcmn/canarytokens-docker"
